@@ -1,0 +1,74 @@
+.sidebar {
+  height: 100vh;
+  background-color: #895b29; /* tono nude/beige */
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: width 0.3s ease;
+  padding: 20px 10px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  overflow: hidden;
+  width: 40px; /* estado cerrado por defecto */
+  z-index: 1000;
+  
+  /* Borde superior e inferior redondeado */
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.sidebar.open {
+  left: 0;
+  width: 150px;
+}
+
+.hamburger-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+.sidebar.open .hamburger-container {
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+
+.hamburger-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem; /* Tamaño más pequeño */
+  color: white;    /* Rayas blancas */
+  cursor: pointer;
+  /* padding: 6px 10px; Más compacto */
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+  margin: 10px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white; 
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 5px;
+}
+
+.menu-item:hover {
+  background-color: #e8e1d9;
+  border-radius: 4px;
+}
+
+.menu-label {
+  white-space: nowrap;
+}
+
+.menu-icon {
+  width: 20px;
+}
