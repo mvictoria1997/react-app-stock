@@ -1,0 +1,2 @@
+.sidebar{background-color:#f5f1ea;box-shadow:2px 0 5px #0000001a;height:100vh;left:-250px;padding:20px;position:fixed;top:0;transition:left .3s ease;width:250px}.sidebar.open{left:0}.hamburger-btn{background-color:#d9cfc3;border:none;border-radius:5px;color:#4a3f35;cursor:pointer;font-size:1.5rem;margin-bottom:20px;padding:10px 15px}.sidebar a{color:#4a3f35;font-weight:700;text-decoration:none}.sidebar a:hover{text-decoration:underline}
+/*# sourceMappingURL=main.c6f9a503.css.map*/
