@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
-import Recipes from './modules/recipes/Recipes';
-import Ingredients from './modules/ingredients/Ingredients';
+import IngredientsListPage from './modules/ingredients/components/pages/ingredientsListaPage';
+import RecipesListPage from './modules/recipes/components/pages/recipesListPage';
 
 function App() {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
@@ -26,8 +26,8 @@ function App() {
         >
           <Routes>
             <Route path="/" element={<Navigate to="/recetas" />} />
-            <Route path="/ingredientes" element={<Ingredients />} />
-            <Route path="/recetas" element={<Recipes />} />
+            <Route path="/ingredientes" element={<IngredientsListPage />} />
+            <Route path="/recetas" element={<RecipesListPage />} />
             <Route path="*" element={<p>Página no encontrada</p>} />
           </Routes>
         </main>
