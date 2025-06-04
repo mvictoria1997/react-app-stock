@@ -14,7 +14,47 @@
     "title": "Gazpacho andaluz",
     "ingredients": ["Tomate", "Pimiento", "Pepino", "Pan", "Aceite", "Vinagre"],
     "instructions": "Tritura todos los ingredientes y sirve frío.",
-    "image": "https://picsum.photos/200",
+    "image": "https://picsum.photos/201",
+    "price": 10.50,
+    "time": 12,
+    "difficult": 2
+  },
+  {
+    "id": 3,
+    "title": "Gazpacho andaluz",
+    "ingredients": ["Tomate", "Pimiento", "Pepino", "Pan", "Aceite", "Vinagre"],
+    "instructions": "Tritura todos los ingredientes y sirve frío.",
+    "image": "https://picsum.photos/202",
+    "price": 10.50,
+    "time": 12,
+    "difficult": 2
+  },
+  {
+    "id": 4,
+    "title": "Gazpacho andaluz",
+    "ingredients": ["Tomate", "Pimiento", "Pepino", "Pan", "Aceite", "Vinagre"],
+    "instructions": "Tritura todos los ingredientes y sirve frío.",
+    "image": "https://picsum.photos/203",
+    "price": 10.50,
+    "time": 12,
+    "difficult": 2
+  },
+  {
+    "id": 5,
+    "title": "Gazpacho andaluz",
+    "ingredients": ["Tomate", "Pimiento", "Pepino", "Pan", "Aceite", "Vinagre"],
+    "instructions": "Tritura todos los ingredientes y sirve frío.",
+    "image": "https://picsum.photos/204",
+    "price": 10.50,
+    "time": 12,
+    "difficult": 2
+  },
+  {
+    "id": 6,
+    "title": "Gazpacho andaluz",
+    "ingredients": ["Tomate", "Pimiento", "Pepino", "Pan", "Aceite", "Vinagre"],
+    "instructions": "Tritura todos los ingredientes y sirve frío.",
+    "image": "https://picsum.photos/205",
     "price": 10.50,
     "time": 12,
     "difficult": 2

@@ -11,22 +11,27 @@ import Stars from '../../atoms/stars';
 
 const RecipeCard = ({ recipe }) => {
   return (
-    <Card sx={{ width: "345px", margin: "10px" }}>
+    <Card sx={{ width: "200px", margin: "10px" }}>
       <CardActionArea>
         <CardMedia
           component="img"
-          height="140"
+          height="100"
           image={recipe?.image}
           alt={recipe?.title}
         />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+        <CardContent sx={{padding: "12px 12px 5px",  }}>
+          <Typography gutterBottom variant="h5" component="div" sx={{
+            display: "-webkit-box",
+            boxOrient: "vertical",
+            lineClamp: 2,
+            wordBreak: "break-all",
+            overflow: "hidden",
+            fontSize: "15px",
+            fontWeight: "200px"
+          }}>
             {recipe?.title}
           </Typography>
           <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-            {/* {recipe?.price}
-            {recipe?.time}
-            {recipe?.difficult} */}
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
                 <Clock size={18} /> <span>{recipe?.time}</span>

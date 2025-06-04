@@ -7,7 +7,8 @@ const RecipesListPage = () => {
   console.log(recipes, loading);
   return (
     <>
-      <h1 style={{ color: '#4a3f35' }}>Bienvenido al módulo de Recetas</h1>
+      <h1 style={{ color: '#4a3f35' }}>Nuestras Recetas</h1>
+      <h2 style={{ color: '#4a3f35' }}>Descubre platos deliciosos y fáciles para cada ocasión.</h2>
       {/* <>loading</> */}
       {/* {!loading && */}
       <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "left" }}>
