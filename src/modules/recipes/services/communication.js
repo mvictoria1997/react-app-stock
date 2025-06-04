@@ -12,3 +12,17 @@ export const fetchRecipes = () => {
     }, 500);
   });
 };
+
+/**
+ * Crea una receta
+ * 
+ * @returns array Listado de recetas
+ */
+export const postRecipe = () => {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(data);
+    }, 500);
+  });
+};
+
