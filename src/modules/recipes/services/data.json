@@ -51,7 +51,7 @@
   },
   {
     "id": 6,
-    "title": "Gazpacho andaluz",
+    "title": "Gazpacho andaluz texto muy largo para ver si se corta en la segunda línea",
     "ingredients": ["Tomate", "Pimiento", "Pepino", "Pan", "Aceite", "Vinagre"],
     "instructions": "Tritura todos los ingredientes y sirve frío.",
     "image": "https://picsum.photos/205",

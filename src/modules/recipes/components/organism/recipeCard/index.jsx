@@ -19,15 +19,16 @@ const RecipeCard = ({ recipe }) => {
           image={recipe?.image}
           alt={recipe?.title}
         />
-        <CardContent sx={{padding: "12px 12px 5px",  }}>
+        <CardContent sx={{ padding: "12px 12px 5px", }}>
           <Typography gutterBottom variant="h5" component="div" sx={{
-            display: "-webkit-box",
-            boxOrient: "vertical",
-            lineClamp: 2,
-            wordBreak: "break-all",
-            overflow: "hidden",
-            fontSize: "15px",
-            fontWeight: "200px"
+            display: '-webkit-box',
+            WebkitBoxOrient: 'vertical',
+            WebkitLineClamp: 2,
+            overflow: 'hidden',
+            textOverflow: 'ellipsis',
+            fontSize: '15px',
+            fontWeight: 400,
+            minHeight: "40px"
           }}>
             {recipe?.title}
           </Typography>
