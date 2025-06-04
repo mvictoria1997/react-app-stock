@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Sidebar.css';
-import menuItems from '../config/menu';
+import menuItems from '../../../config/menu';
 
 const Sidebar = ({ isOpen, toggle }) => {
   return (
