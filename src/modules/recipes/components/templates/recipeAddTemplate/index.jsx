@@ -2,7 +2,7 @@ import { Button, Dialog, DialogActions, DialogContent, DialogTitle, Typography }
 import RecipeForm from "../../organism/recipeForm";
 import { useAddRecipe } from "../../../hooks/useAddRecipe";
 
-const CardAddTemplate = ({ open, handleClose }) => {
+const RecipeAddTemplate = ({ open, handleClose }) => {
 
     const { formData, setFormData, error, loading, handleChange, handleSubmit } = useAddRecipe(() => { console.log("Refresca") }, handleClose);
     return (
@@ -23,4 +23,4 @@ const CardAddTemplate = ({ open, handleClose }) => {
     )
 };
 
-export default CardAddTemplate;
+export default RecipeAddTemplate;

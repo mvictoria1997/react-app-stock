@@ -1,0 +1,51 @@
+[
+  {
+    "id": "1",
+    "nombre": "Harina de trigo",
+    "cantidad": 500,
+    "unidad": "g",
+    "categoria": "Harinas"
+  },
+  {
+    "id": "2",
+    "nombre": "Huevos",
+    "cantidad": 3,
+    "unidad": "unidad",
+    "categoria": "Lácteos y huevos"
+  },
+  {
+    "id": "3",
+    "nombre": "Leche entera",
+    "cantidad": 250,
+    "unidad": "ml",
+    "categoria": "Lácteos y huevos"
+  },
+  {
+    "id": "4",
+    "nombre": "Azúcar",
+    "cantidad": 100,
+    "unidad": "g",
+    "categoria": "Endulzantes"
+  },
+  {
+    "id": "5",
+    "nombre": "Mantequilla",
+    "cantidad": 50,
+    "unidad": "g",
+    "categoria": "Grasas"
+  },
+  {
+    "id": "6",
+    "nombre": "Sal",
+    "cantidad": 5,
+    "unidad": "g",
+    "categoria": "Condimentos"
+  },
+  {
+    "id": "7",
+    "nombre": "Polvo de hornear",
+    "cantidad": 10,
+    "unidad": "g",
+    "categoria": "Leudantes"
+  }
+]

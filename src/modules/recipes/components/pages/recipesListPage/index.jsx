@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useRecipes } from '../../../hooks/useRecipes';
 import RecipeCard from '../../organism/recipeCard';
-import { Box, Button } from '@mui/material';
+import { Button } from '@mui/material';
 import BasePage from '../../../../../lib/components/basePage';
 import LoadingPage from '../../../../../lib/components/loadingPage';
-import CardAddTemplate from '../../templates/cardAddTemplate';
 import { Plus } from 'phosphor-react';
+import RecipeAddTemplate from '../../templates/recipeAddTemplate';
 
 const RecipesListPage = () => {
   const { recipes, loading } = useRecipes();
@@ -15,15 +15,18 @@ const RecipesListPage = () => {
   const handleClose = () => setOpen(false);
 
   return (
-    <BasePage headerButton={
-      <Button
-        variant="contained"
-        startIcon={<Plus size={20} />}
-        onClick={handleOpen}
-        sx={{ borderRadius: 2 }}
-      >
-        Añadir receta
-      </Button>}>
+    <BasePage
+      headerTitle="Nuestras Recetas"
+      headerSubtitle="Descubre platos deliciosos y fáciles para cada ocasión"
+      headerButton={
+        <Button
+          variant="contained"
+          startIcon={<Plus size={20} />}
+          onClick={handleOpen}
+          sx={{ borderRadius: 2 }}
+        >
+          Añadir receta
+        </Button>}>
       <>
         {loading ? <LoadingPage />
           : <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "left" }}>
@@ -31,7 +34,7 @@ const RecipesListPage = () => {
               <RecipeCard key={recipe.id} recipe={recipe} />
             ))}
           </div>}
-        <CardAddTemplate open={open} handleClose={handleClose} />
+        <RecipeAddTemplate open={open} handleClose={handleClose} />
       </>
     </BasePage>
   );
